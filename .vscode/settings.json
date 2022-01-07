@@ -1,0 +1,26 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "go_rest_api",
+            "group": "go_rest_api",
+            "database": "go_rest_api_dev",
+            "username": "postgres",
+            "password": ""
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "database": "go_rest_api_dev",
+            "username": "postgres",
+            "name": "grad",
+            "group": "grad",
+            "password": ""
+        }
+    ]
+}

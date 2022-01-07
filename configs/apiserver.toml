@@ -1,2 +1,5 @@
 bind_addr = ":8000"
 log_level = "debug"
+
+[store]
+database_url = "host=localhost port=5433 dbname=go_rest_api_dev sslmode=disable"
