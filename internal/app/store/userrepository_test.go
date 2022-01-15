@@ -23,7 +23,7 @@ func TestUserRepository_FindByEmail(t *testing.T) {
 
 	email := "user@example.com"
 	_, err := s.User().FindByEmail(email)
-	assert.NoError(t, err)
+	assert.Error(t, err)
 
 	u := model.TestUser(t)
 	u.Email = email
