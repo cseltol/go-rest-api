@@ -1,3 +1,4 @@
 bind_addr = ":8000"
 log_level = "debug"
 database_url = "host=localhost port=5433 dbname=go_rest_api_dev sslmode=disable"
+session_key = "D1147F4B3E5C7AC35B5D9F2B86EFCC725995F6DE662B4E5A9ACB772473"

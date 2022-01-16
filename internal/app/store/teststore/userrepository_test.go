@@ -10,7 +10,6 @@ import (
 )
 
 func TestUserRepository_Create(t *testing.T) {
-
 	s := teststore.New()
 	u := model.TestUser(t)
 	assert.NoError(t, s.User().Create(u))
